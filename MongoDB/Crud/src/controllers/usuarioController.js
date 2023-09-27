@@ -28,7 +28,7 @@ module.exports = {
     // utiliza find para buscar junto com params req.params.id
     return res.json(usuarios);
   },
-
+  // metodo update
   async update(req, res) {
 
     // vai buscar o Id para atualizar
@@ -37,7 +37,12 @@ module.exports = {
     // {new:true} ele vai atualizar automaticamente
 
     return res.json(usuarios)
+  },
+  async deletarUser(req, res) {
+    //vai busca nosso registro no Db
+    await Usuario.findByIdAndRemove(req.params.id);
+    return res.send();
   }
 
-  // metodo update
+
 }
