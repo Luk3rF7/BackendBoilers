@@ -17,8 +17,15 @@
  Controller -> vai ser responsavel por manipular o usuario :
 </p>
 <p>
- Model -> modelos do bd
+ Model -> modelos dos dados
 </p>
 <p>
  Routes -> Define as rotas da aplicação
 </p>
+<h2> iniciando projeto : </h2>
+
+<li> Crie um arquivo .env na pasta raiz e adicione chave do mongoDb :
+URL_MONGO </li>
+
+<li> Logo apos inicie com npm i para baixa node_modules !</li>
+<li> import pasta do insomia para pode realizar cread,read,update e delete </>
