@@ -12,7 +12,7 @@ module.exports = {
     const usuario = await Usuario.create(req.body);
     return res.json(usuario);
   },
-  //select  -> ver
+  //Read  = select  -> ver
   async select(req, res) {
     const { page } = req.query;
 
@@ -27,5 +27,17 @@ module.exports = {
     const usuarios = await Usuario.findById(req.params.id);
     // utiliza find para buscar junto com params req.params.id
     return res.json(usuarios);
+  },
+
+  async update(req, res) {
+
+    // vai buscar o Id para atualizar
+    const usuarios = await Usuario.findByIdAndUpdate(req.params.id, req.body, { new: true });
+    // passo req.body com novo dados
+    // {new:true} ele vai atualizar automaticamente
+
+    return res.json(usuarios)
   }
+
+  // metodo update
 }
