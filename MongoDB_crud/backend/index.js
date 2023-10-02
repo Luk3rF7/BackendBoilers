@@ -30,5 +30,6 @@ app.use('/sistema', require('./src/routes/routes'));
 
 app.listen(port, () => {
   console.log('backend executando com sucesso!')
+  console.log(`http://localhost:3005/sistema/usuario`)
 
 })

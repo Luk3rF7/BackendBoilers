@@ -1,0 +1,59 @@
+.usuario-list {
+  margin:20px auto 0;
+  padding:0 20px;
+  max-width: 700px;
+  border: .1rem solid rgba(0,0,0,.7);
+  border-radius: .3rem;
+}
+.usuario-list article{
+  background: #eee;
+  border: .1rem solid rgba(190,190,190,.5);
+  border-radius: 5px;
+  padding: 30px;
+  margin: 15px 0;
+}
+.usuario-list article p {
+  font-size: 18px;
+  color:dimgray;
+  margin: 10px 0;
+  line-height: 24px;
+}
+.usuario-list article p > a{
+  border: 1px solid #000;
+  height: 42px;
+  border-radius: 5px;
+  background: blue;
+  color:#fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding:8px;
+  margin-top: 15px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition:  all .3s ease-in;
+}
+.usuario-list article p > a:hover{
+   background: dimgray;
+}
+.usuario-list .actions {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+.usuario-list .actions button {
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: blue;
+  color:#fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding:10px;  
+  transition:  all .3s ease-in;
+}
+.usuario-list .actions button:hover{
+   background: rgba(0, 0, 255,.1);
+   color:#000;
+   cursor: pointer;
+}
