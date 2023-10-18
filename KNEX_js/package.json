@@ -1,0 +1,16 @@
+{
+  "name": "knex_js",
+  "version": "1.0.0",
+  "description": "<h1>Knex.js TypeOrm </h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^3.0.1",
+    "mysql2": "^3.6.2"
+  }
+}
