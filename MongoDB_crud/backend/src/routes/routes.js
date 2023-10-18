@@ -7,7 +7,7 @@ const usuarioController = require('../controllers/usuarioController');
 routes.post('/usuario', usuarioController.insert);
 //rota buscar e mostrar
 routes.get('/usuario', usuarioController.select);
-//rotar acha por id
+//rotar acha por id0
 routes.get('/usuario/:id', usuarioController.findUser);
 //rota atualizar rota
 routes.put('/usuario/:id', usuarioController.update);
