@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store webkit</title>
+    <script src="projectLocal.js" defer></script>
+  </head>
+  <body>
+    <h1>LocalStorage SessionStore</h1>
+
+    <form action="name-form" id="name-form">
+      <h2>Preencha os Dados:</h2>
+      <label for="name">Nome:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Digite seu nome..."
+        required
+      />
+      <input type="submit" value="Enviar" />
+    </form>
+    <div id="welcome">
+      <h2>
+        Seja Bem-vindo<br />
+        <h1 id="username"></h1>
+      </h2>
+      <button id="logout">Sair</button>
+    </div>
+
+    <!-- 
+      todo intro de local e session aqui
+      script src="./intro/introducao.js"
+      <script src="./intro/localStorage.js"></script>
+      <script src="./intro/sessionStorage.js"></script>
+    -->
+  </body>
+</html>
