@@ -8,6 +8,6 @@
     "baseUrl": "src",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "skipLipCheck": true
+    "skipLibCheck": true
   }
 }
